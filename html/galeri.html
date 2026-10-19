@@ -1,434 +1,430 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Dokumentasi Foto & Video - Fan Lestari Outdoor</title>
+  <meta name="description" content="Koleksi dokumentasi video ekspedisi dan foto perlengkapan outdoor berkualitas tinggi dari Fan Lestari. Lihat inspirasi petualangan alam bebas di sini.">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-        <title>Fan_Lestari</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
 
-        <!--    Google Fonts-->
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <!-- Luxury Design System Stylesheet -->
+  <link rel="stylesheet" href="../css/luxury-outdoor.css">
+</head>
+<body>
 
-        <!--Fontawesom-->
-        <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <!-- Top Announcement Bar -->
+  <aside class="luxury-topbar">
+    <div class="luxury-container">
+      <div class="topbar-content">
+        <div class="topbar-left">
+          <span class="topbar-item">
+            <i class="fa fa-map-marker"></i> Jl. Jenderal Ahmad Yani, Pekalongan, Jawa Tengah
+          </span>
+          <span class="topbar-item">
+            <i class="fa fa-phone"></i> +62 877-1180-8500
+          </span>
+        </div>
+        <div class="topbar-right">
+          <span class="topbar-item business-status-badge luxury-badge luxury-badge-emerald" style="padding: 0.2rem 0.75rem; font-size: 0.75rem;">
+            <span class="pulse-dot"></span> Buka Hari Ini (08.00 - 18.00 WIB)
+          </span>
+          <span class="topbar-item">
+            <i class="fa fa-camera"></i> Dokumentasi Asli Petualang
+          </span>
+        </div>
+      </div>
+    </div>
+  </aside>
 
-        <!--Animated CSS-->
-        <link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+  <!-- Sticky Luxury Navigation -->
+  <header class="luxury-navbar">
+    <div class="luxury-container">
+      <div class="nav-container">
+        <a href="../index.html" class="brand-wrapper" title="Fan Lestari Outdoor Rental">
+          <img src="../img/logo.png" alt="Fan Lestari Logo" class="brand-logo-img">
+          <div class="brand-text">
+            <span class="brand-name">FAN<span>LESTARI</span></span>
+            <span class="brand-tagline">Luxury Outdoor Rental</span>
+          </div>
+        </a>
 
-        <!-- Bootstrap -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <!--Bootstrap Carousel-->
-        <link type="text/css" rel="stylesheet" href="../css/carousel.css" />
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="../index.html" class="nav-link">Beranda</a></li>
+            <li><a href="./profil.html" class="nav-link">Profil</a></li>
+            <li><a href="./servis.html" class="nav-link">Katalog & Sewa</a></li>
+            <li><a href="./galeri.html" class="nav-link active">Galeri</a></li>
+            <li><a href="./testimoni.html" class="nav-link">Testimoni</a></li>
+            <li><a href="./kontak.html" class="nav-link">Kontak</a></li>
+          </ul>
+        </nav>
 
-        <link rel="stylesheet" href="../css/isotope/style.css">
+        <div class="nav-actions">
+          <a href="./login.html" class="btn-luxury btn-luxury-secondary btn-luxury-sm">
+            <i class="fa fa-user-circle"></i> Masuk / Akun
+          </a>
+          <a href="./servis.html#booking" class="btn-luxury btn-luxury-primary btn-luxury-sm">
+            <i class="fa fa-calendar-check-o"></i> Sewa Sekarang
+          </a>
+          <button class="mobile-toggle" aria-label="Buka Menu Navigasi">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
 
-        <!--Main Stylesheet-->
-        <link href="../css/style.css" rel="stylesheet">
-        <!--Responsive Framework-->
-        <link href="../css/responsive.css" rel="stylesheet">
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay"></div>
+  <aside class="mobile-drawer">
+    <div class="drawer-header">
+      <div class="brand-text">
+        <span class="brand-name">FAN<span>LESTARI</span></span>
+        <span class="brand-tagline">Outdoor Equipment</span>
+      </div>
+      <button class="drawer-close" aria-label="Tutup Menu">&times;</button>
+    </div>
+    <ul class="drawer-menu">
+      <li><a href="../index.html" class="drawer-link"><i class="fa fa-home"></i> Beranda</a></li>
+      <li><a href="./profil.html" class="drawer-link"><i class="fa fa-info-circle"></i> Profil Perusahaan</a></li>
+      <li><a href="./servis.html" class="drawer-link"><i class="fa fa-compass"></i> Katalog & Sewa</a></li>
+      <li><a href="./galeri.html" class="drawer-link active"><i class="fa fa-picture-o"></i> Galeri Foto & Video</a></li>
+      <li><a href="./testimoni.html" class="drawer-link"><i class="fa fa-comments"></i> Ulasan Pelanggan</a></li>
+      <li><a href="./kontak.html" class="drawer-link"><i class="fa fa-envelope"></i> Kontak Kami</a></li>
+      <li><a href="./login.html" class="drawer-link"><i class="fa fa-sign-in"></i> Masuk / Daftar Akun</a></li>
+    </ul>
+    <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+      <a href="./servis.html#booking" class="btn-luxury btn-luxury-primary" style="width: 100%;">
+        <i class="fa fa-calendar-check-o"></i> Sewa Peralatan Galeri
+      </a>
+    </div>
+  </aside>
 
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
+  <!-- Page Header Banner -->
+  <section class="luxury-hero" style="min-height: 48vh; padding: 4rem 0 3rem;">
+    <div class="hero-backdrop" style="background-image: url('../images/A1.jpg'); filter: brightness(0.35);"></div>
+    <div class="hero-overlay"></div>
+    <div class="luxury-container" style="text-align: center; position: relative; z-index: 2;">
+      <span class="luxury-badge" style="margin-bottom: 1rem;">
+        <i class="fa fa-film"></i> Koleksi Dokumentasi Eksklusif
+      </span>
+      <h1 style="color: #FFFFFF; margin-bottom: 1rem;">Galeri Petualangan & Perlengkapan</h1>
+      <p style="max-width: 650px; margin: 0 auto; color: var(--text-secondary); font-size: 1.1rem;">
+        Saksikan secara langsung performa nyata peralatan outdoor kami di medan pegunungan, rimba, dan perkemahan alam terbuka.
+      </p>
+    </div>
+  </section>
 
-    <body data-spy="scroll" data-target="#header">
+  <!-- Video Showcase Section -->
+  <section class="luxury-section" style="background: var(--bg-deep);">
+    <div class="luxury-container">
+      <div class="section-header">
+        <p class="section-subtitle">Video Liputan Lapangan</p>
+        <h2 class="section-title">Dokumentasi <span class="text-gold-gradient">Video Bergerak</span></h2>
+        <p class="section-description">
+          Setiap video merekam suasana asli petualangan di berbagai medan ekspedisi.
+        </p>
+      </div>
 
-        <!--Start Hedaer Section-->
-        <section id="header">
-            <div class="header-area">
-                <div class="top_header">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zero_mp">
-                                <div class="address">
-                                    <i class="fa fa-home floatleft"></i>
-                                    <p>jl. Jendral Ahmad Yani, Pekalongan, Jawa tengah</p>
-                                </div>
-                            </div>
-                            <!--End of col-md-4-->
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 zero_mp">
-                                <div class="phone">
-                                    <i class="fa fa-phone floatleft"></i>
-                                    <p>+6287711808500</p>
-                                </div>
-                            </div>
-                            <!--End of col-md-4-->
-                            <div class="col-md-4">
-                                <div class="social_icon text-right">
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-twitter"></i></a>
-                                    <a href=""><i class="fa fa-google-plus"></i></a>
-                                    <a href=""><i class="fa fa-youtube"></i></a>
-                                </div>
-                            </div>
-                            <!--End of col-md-4-->
-                        </div>
-                        <!--End of row-->
-                    </div>
-                    <!--End of container-->
-                </div>
-                <!--End of top header-->
-                <div class="header_menu text-center" data-spy="affix" data-offset-top="50" id="nav">
-                    <div class="container">
-                        <nav class="navbar navbar-default zero_mp ">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand custom_navbar-brand" href="#"><img src="../img/logo.png" style=" width: 300%; height: 300%; vertical-align: middle; display: block; margin: auto; background-size: cover; background-attachment: fixed; background-position: center; border-radius: 0%;" alt=""></a>
-                            </div>
-                            <!--End of navbar-header-->
-
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse zero_mp" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav navbar-right main_menu">
-                                    <li><a href="index.html">Beranda</a></li>
-                                    <li><a href="profil.html">Profil</a></li>
-                                    <li class="active"><a href="galeri.html">Galeri<span class="sr-only">(current)</span></a></li>
-                                    <li><a href="servis.html">Our Services</a></li>
-                                    <li><a href="testimoni.html">testimoni</a></li>
-                                    <li><a href="kontak.html">Kontak kami</a></li>
-                                    <li><a href="login.html">Keluar</a></li>
-                                </ul>
-                            </div>
-                            <!-- /.navbar-collapse -->
-                        </nav>
-                        <!--End of nav-->
-                    </div>
-                    <!--End of container-->
-                </div>
-                <!--End of header menu-->
+      <div class="video-showcase-grid">
+        <!-- Video 1 -->
+        <div class="video-card">
+          <div class="video-player-container">
+            <video controls preload="metadata">
+              <source src="../images/vid (1).mp4" type="video/mp4">
+              Browser tidak mendukung pemutaran video.
+            </video>
+          </div>
+          <div class="video-info">
+            <h4 class="video-title">Eksplorasi Lembah Rimba & Aliran Sungai</h4>
+            <div class="video-meta">
+              <span><i class="fa fa-map-marker"></i> Lembah Pegunungan</span>
+              <span><i class="fa fa-play-circle"></i> Video High Definition</span>
             </div>
-            <!--end of header area-->
-        </section>
-        <!--End of Hedaer Section-->
+          </div>
+        </div>
 
-
-        <!--Start of portfolio-->
-        <section id="portfolio" class="text-center">
-            <div class="col-md-12">
-                <div class="portfolio_title">
-                    <h2>Galeri OutDoor</h2>
-                    <p>macam-macam Alat rental Kami dan kegiatan yang sudah kita alami serta lewati </p>
-                </div>
+        <!-- Video 2 -->
+        <div class="video-card">
+          <div class="video-player-container">
+            <video controls preload="metadata">
+              <source src="../images/vid (2).mp4" type="video/mp4">
+              Browser tidak mendukung pemutaran video.
+            </video>
+          </div>
+          <div class="video-info">
+            <h4 class="video-title">Api Unggun & Kenyamanan Tenda Malam Hari</h4>
+            <div class="video-meta">
+              <span><i class="fa fa-map-marker"></i> Basecamp Perkemahan</span>
+              <span><i class="fa fa-play-circle"></i> Suasana Hangat</span>
             </div>
-            <!--End of col-md-2-->
-            <div class="colum">
-                <div class="container">
-                    <div class="row">
-                        <form action="/">
-                            <ul id="portfolio_menu" class="menu portfolio_custom_menu">
-                                <li>
-                                    <button href="#"  class="my_btn">semua</button>
-                                </li>
-                                <li>
-                                    <button href="#"  class="my_btn">rental kami</button>
+          </div>
+        </div>
 
-                                </li>
-                                <li>
-                                    <button href="#"  class="my_btn">videografi</button>
-                                </li>
-                                <li>
-                                    <button  href="#" class="my_btn">photography</button>
-                                </li>
-                                <li>
-                                    <button  href="#" class="my_btn">wisata</button>
-                            </ul>
-                            <!--End of portfolio_menu-->
-                        </form>
-                        <!--End of Form-->
-                    </div>
-                    <!--End of row-->
-                </div>
-                <!--End of container-->
-                <div class="container">
-                    <div class="row">
-                                        <div class="video-grid">
-                                            <video width="200" height="25" controls>
-                                                    <source src="../images/vid (1).mp4" type="video/mp4" alt="p"></video>
-                                            <video width="200" height="200" controls>
-                                                    <source src="../images/vid (2).mp4" type="video/mp4" alt="p"></video>
-                                            <video width="200" height="200" controls>
-                                                    <source src="../images/vid (3).mp4" type="video/mp4" alt="p"></video>
-                                            <video width="200" height="200" controls>
-                                                    <source src="../images/vid (4).mp4" type="video/mp4" alt="p"></video>
-                                            </div>
-                                        </div>  
-                                        <section id="portfolio" class="text-center">
-                                            <div class="col-md-12">
-                                                <div class="portfolio_title">
-                                                    <h2>Barang Rental Kami</h2>
-                                                    <p>macam-macam Alat rental Kami dan kegiatan yang sudah kita alami serta lewati </p>
-                                                </div>             
-                                            <div class="gallery-grid" >
-                                                <img src="../images/alt (22).jpg" alt="Foto 1" width="150">
-                                                <img src="../images/alt (2).jpg" alt="Foto 2" width="150">
-                                                <img src="../images/alt (3).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (4).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (5).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (6).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (7).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (8).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (9).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (11).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (12).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (13).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (14).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (15).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (16).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (17).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (18).jpg" alt="Foto 4" width="150">
-                                                <img src="../images/alt (19).jpg" alt="Foto 4" width="150">
-                                            </div>
-                                        </section>
-<style>
-            /* Gallery */
-    .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
-        margin-top: 20px;
-    }
-    
-    .gallery-grid img {
-        width: 100%;
-        height: auto;
-        border-radius: 15px;
-        object-fit: cover;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s, box-shadow 0.3s;
-    }
-    
-    .gallery-grid img:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-    
-    .video-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 15px;
-        margin-top: 20px;
-    }
-    
-    .video-grid video {
-        width: 90%;
-        height: auto;
-        border-radius: 15px;
-        object-fit: cover;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s, box-shadow 0.3s;
-    }
-    
-    .video-grid video:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-        </style>
-
-
-
-        <!--Start of contact-->
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="colmd-12">
-                        <div class="contact_area text-center">
-                            <h3>kontak Kami</h3>
-                            <p>ika Anda memiliki pertanyaan, jangan ragu untuk menghubungi kami dengan mengisi formulir di bawah ini atau melalui informasi kontak kami.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End of row-->
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="office">
-                            <div class="title">
-                                <h5>Informasi Kontak Kami</h5>
-                            </div>
-                            <div class="office_location">
-                                <div class="address">
-                                    <i class="fa fa-map-marker"><span>jl. Jendral Ahmad Yani, Pekalongan, Jawa tengah</span></i>
-                                </div>
-                                <div class="phone">
-                                    <i class="fa fa-phone"><span>+6287711808500</span></i>
-                                </div>
-                                <div class="email">
-                                    <i class="fa fa-envelope"><span>Rifanudin@mail.com</span></i>
-                                </div>
-                                <div id="map"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="msg">
-                            <div class="msg_title">
-                                <h5>Tinggalkan pesan</h5>
-                            </div>
-                            <div class="form_area">
-                                <!-- CONTACT FORM -->
-                                <div class="contact-form wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
-                                    <div id="message"></div>
-                                    <form action="../scripts/contact.php" class="form-horizontal contact-1" role="form" name="contactform" id="contactform">
-                                        <div class="form-group">
-                                            <div class="col-sm-6">
-                                                <input type="text" class="form-control" name="name" id="name" placeholder="Nama Lengkap">
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <input type="text" class="form-control" name="email" id="email" placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-sm-12">
-                                                <input type="subject" class="form-control" id="subject" placeholder="Subject *">
-                                                <div class="text_area">
-                                                    <textarea name="contact-message" id="msg" class="form-control" cols="30" rows="8" placeholder="tulis pesan anda disini"></textarea>
-                                                </div>
-                                                <button type="submit" class="btn custom-btn" data-loading-text="Loading...">kirim</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End of col-md-6-->
-                </div>
-                <!--End of row-->
+        <!-- Video 3 -->
+        <div class="video-card">
+          <div class="video-player-container">
+            <video controls preload="metadata">
+              <source src="../images/vid (3).mp4" type="video/mp4">
+              Browser tidak mendukung pemutaran video.
+            </video>
+          </div>
+          <div class="video-info">
+            <h4 class="video-title">Persiapan Logistik & Packing Perlengkapan</h4>
+            <div class="video-meta">
+              <span><i class="fa fa-map-marker"></i> Fan Lestari Workshop</span>
+              <span><i class="fa fa-play-circle"></i> Uji Kelayakan Unit</span>
             </div>
-            <!--End of container-->
-        </section>
-        <!--End of contact-->
+          </div>
+        </div>
 
-        <!--Start of footer-->
-        <section id="footer">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-6">
-                        <div class="copyright">
-                            <p>@ 2024 - Design By <span><a href="">&#9974;</a></span></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="designer">
-                            <p>Design By <a href="#">Muhammad Rifanudin</a></p>
-                        </div>
-                    </div>
-                </div>
-                <!--End of row-->
+        <!-- Video 4 -->
+        <div class="video-card">
+          <div class="video-player-container">
+            <video controls preload="metadata">
+              <source src="../images/vid (4).mp4" type="video/mp4">
+              Browser tidak mendukung pemutaran video.
+            </video>
+          </div>
+          <div class="video-info">
+            <h4 class="video-title">Ketahanan Tenda di Tengah Angin Pegunungan</h4>
+            <div class="video-meta">
+              <span><i class="fa fa-map-marker"></i> Puncak Jalur Highland</span>
+              <span><i class="fa fa-play-circle"></i> Uji Ketahanan Cuaca</span>
             </div>
-            <!--End of container-->
-        </section>
-        <!--End of footer-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Photo Gallery Grid with Lightbox -->
+  <section class="luxury-section">
+    <div class="luxury-container">
+      <div class="section-header">
+        <p class="section-subtitle">Galeri Foto Resolusi Tinggi</p>
+        <h2 class="section-title">Koleksi Foto <span class="text-gold-gradient">Peralatan & Destinasi</span></h2>
+        <p class="section-description">
+          Klik pada setiap foto untuk memperbesar dan melihat detail keunggulan unit.
+        </p>
+      </div>
 
+      <div class="photo-gallery-grid">
+        <div class="gallery-item">
+          <img src="../images/alt (14).jpg" alt="Carrier Ekspedisi 65L Kanvas">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Tas & Carrier</span>
+            <span class="gallery-item-title">Carrier Ekspedisi Heavy Duty 65L</span>
+          </div>
+        </div>
 
-        <!--Scroll to top-->
-        <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
-        <!--End of Scroll to top-->
+        <div class="gallery-item">
+          <img src="../images/alt (2).jpg" alt="Tactical Bushcraft Daypack">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Backpack Taktis</span>
+            <span class="gallery-item-title">Bushcraft Daypack 35L Cordura</span>
+          </div>
+        </div>
 
+        <div class="gallery-item">
+          <img src="../images/alt (3).jpg" alt="Survival EDC Gear Flatlay">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Survival Gear</span>
+            <span class="gallery-item-title">Paket Kelengkapan Survival Lengkap</span>
+          </div>
+        </div>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>-->
-        <script src="../js/jquery-1.12.3.min.js"></script>
+        <div class="gallery-item">
+          <img src="../images/alt (5).jpg" alt="BioLite CampStove Generator">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Cooking & Power</span>
+            <span class="gallery-item-title">BioLite Stove Penghasil Listrik</span>
+          </div>
+        </div>
 
-        <!--Counter UP Waypoint-->
-        <script src="../js/waypoints.min.js"></script>
-        <!--Counter UP-->
-        <script src="../js/jquery.counterup.min.js"></script>
+        <div class="gallery-item">
+          <img src="../images/alt (6).jpg" alt="Jetboil Genesis Basecamp">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Kompor Ekspedisi</span>
+            <span class="gallery-item-title">Jetboil Genesis Double Burner</span>
+          </div>
+        </div>
 
-        <script>
-            //for counter up
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1000
-            });
-        </script>
+        <div class="gallery-item">
+          <img src="../images/alt (7).jpg" alt="Ultralight Gas Canister Stove">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Kompor Ringan</span>
+            <span class="gallery-item-title">Canister Stove Ultralight</span>
+          </div>
+        </div>
 
-        <!--Gmaps-->
-        <script src="../js/gmaps.min.js"></script>
-        <script type="text/javascript">
-            var map;
-            $(document).ready(function () {
-                map = new GMaps({
-                    el: '#map',
-                    lat: 23.6911078,
-                    lng: 90.5112799,
-                    zoomControl: true,
-                    zoomControlOpt: {
-                        style: 'SMALL',
-                        position: 'LEFT_BOTTOM'
-                    },
-                    panControl: false,
-                    streetViewControl: false,
-                    mapTypeControl: false,
-                    overviewMapControl: false,
-                    scrollwheel: false,
-                });
+        <div class="gallery-item">
+          <img src="../images/alt (4).jpg" alt="Outdoor Cooking Pot Set">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Alat Masak</span>
+            <span class="gallery-item-title">Nesting Cookware 4-in-1 Set</span>
+          </div>
+        </div>
 
+        <div class="gallery-item">
+          <img src="../images/alt (10).jpg" alt="Portable Camp Barrel Grill">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">BBQ & Api Unggun</span>
+            <span class="gallery-item-title">Portable Fire Pit & Barbeque</span>
+          </div>
+        </div>
 
-                map.addMarker({
-                    lat: 23.6911078,
-                    lng: 90.5112799,
-                    title: 'Office',
-                    details: {
-                        database_id: 42,
-                        author: 'Foysal'
-                    },
-                    click: function (e) {
-                        if (console.log)
-                            console.log(e);
-                        alert('You clicked in this marker');
-                    },
-                    mouseover: function (e) {
-                        if (console.log)
-                            console.log(e);
-                    }
-                });
-            });
-        </script>
-        <!--Google Maps API-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjxvF9oTfcziZWw--3phPVx1ztAsyhXL4"></script>
+        <div class="gallery-item">
+          <img src="../images/alt (1).jpg" alt="Medical First Aid Kit Tactical">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Pertolongan Pertama</span>
+            <span class="gallery-item-title">P3K Taktis Medical Kit 30+ Item</span>
+          </div>
+        </div>
 
+        <div class="gallery-item">
+          <img src="../images/alt (22).jpg" alt="Compact First Aid Pouch">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Kesehatan</span>
+            <span class="gallery-item-title">Emergency Trauma Care Kit</span>
+          </div>
+        </div>
 
-        <!--Isotope-->
-        <script src="../js/isotope/min/scripts-min.js"></script>
-        <script src="../js/isotope/cells-by-row.js"></script>
-        <script src="../js/isotope/isotope.pkgd.min.js"></script>
-        <script src="../js/isotope/packery-mode.pkgd.min.js"></script>
-        <script src="../js/isotope/scripts.js"></script>
+        <div class="gallery-item">
+          <img src="../images/A1.jpg" alt="Tenda di Danau Pegunungan">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Lanskap Berkemah</span>
+            <span class="gallery-item-title">Suasana Camping Tepi Danau Alami</span>
+          </div>
+        </div>
 
+        <div class="gallery-item">
+          <img src="../images/A2.jpg" alt="Tenda Klasik di Bawah Pohon Rindang">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Basecamp Hutan</span>
+            <span class="gallery-item-title">Kenyamanan Berkemah Rimba Asri</span>
+          </div>
+        </div>
 
-        <!--Back To Top-->
-        <script src="../js/backtotop.js"></script>
+        <div class="gallery-item">
+          <img src="../images/alt (8).jpg" alt="Peralatan Tambahan Outdoor">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Aksesoris</span>
+            <span class="gallery-item-title">Perlengkapan Tambahan Pendakian</span>
+          </div>
+        </div>
 
+        <div class="gallery-item">
+          <img src="../images/alt (9).jpg" alt="Perlengkapan Kemah Praktis">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Peralatan</span>
+            <span class="gallery-item-title">Perlengkapan Camping Terpadu</span>
+          </div>
+        </div>
 
-        <!--JQuery Click to Scroll down with Menu-->
-        <script src="../js/jquery.localScroll.min.js"></script>
-        <script src="../js/jquery.scrollTo.min.js"></script>
-        <!--WOW With Animation-->
-        <script src="../js/wow.min.js"></script>
-        <!--WOW Activated-->
-        <script>
-            new WOW().init();
-        </script>
+        <div class="gallery-item">
+          <img src="../images/alt (11).jpg" alt="Dokumentasi Perjalanan">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Jelajah Alam</span>
+            <span class="gallery-item-title">Eksplorasi Jalur Terbuka</span>
+          </div>
+        </div>
 
+        <div class="gallery-item">
+          <img src="../images/alt (12).jpg" alt="Peralatan Lengkap Siap Pakai">
+          <div class="gallery-item-overlay">
+            <span class="gallery-item-category">Inventaris</span>
+            <span class="gallery-item-title">Kesiapan Unit Sebelum Berangkat</span>
+          </div>
+        </div>
+      </div>
 
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="../js/bootstrap.min.js"></script>
-        <!-- Custom JavaScript-->
-        <script src="../js/main.js"></script>
-    </body>
+      <!-- Action Banner -->
+      <div style="text-align: center; margin-top: 4rem;">
+        <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+          Tertarik menggunakan salah satu perlengkapan di atas untuk petualangan Anda berikutnya?
+        </p>
+        <a href="./servis.html#booking" class="btn-luxury btn-luxury-primary">
+          <i class="fa fa-calendar-check-o"></i> Booking Unit Pilihan Anda
+        </a>
+      </div>
+    </div>
+  </section>
 
+  <!-- Luxury Footer -->
+  <footer class="luxury-footer">
+    <div class="luxury-container">
+      <div class="footer-grid">
+        <div>
+          <a href="../index.html" class="brand-wrapper" style="margin-bottom: 1.25rem;">
+            <img src="../img/logo.png" alt="Fan Lestari Logo" class="brand-logo-img">
+            <div class="brand-text">
+              <span class="brand-name">FAN<span>LESTARI</span></span>
+              <span class="brand-tagline">Outdoor Equipment Rental</span>
+            </div>
+          </a>
+          <p style="font-size: 0.92rem; color: var(--text-muted); line-height: 1.7;">
+            Menyediakan persewaan alat camping, hiking, dan bushcraft berkualitas prima untuk pengalaman luar ruang tak terlupakan.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigasi Utama</h4>
+          <ul class="footer-links">
+            <li><a href="../index.html"><i class="fa fa-angle-right"></i> Beranda</a></li>
+            <li><a href="./profil.html"><i class="fa fa-angle-right"></i> Tentang Kami</a></li>
+            <li><a href="./servis.html"><i class="fa fa-angle-right"></i> Katalog & Biaya Sewa</a></li>
+            <li><a href="./galeri.html"><i class="fa fa-angle-right"></i> Galeri Dokumentasi</a></li>
+            <li><a href="./testimoni.html"><i class="fa fa-angle-right"></i> Testimoni</a></li>
+            <li><a href="./kontak.html"><i class="fa fa-angle-right"></i> Kontak</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Dokumentasi Media</h4>
+          <ul class="footer-links">
+            <li><a href="./galeri.html"><i class="fa fa-play-circle"></i> Video Liputan Ekspedisi</a></li>
+            <li><a href="./galeri.html"><i class="fa fa-camera"></i> Foto Perlengkapan HD</a></li>
+            <li><a href="./galeri.html"><i class="fa fa-fire"></i> Momen Camping Rimba</a></li>
+            <li><a href="./galeri.html"><i class="fa fa-medkit"></i> Uji Ketahanan Unit</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Basecamp & Kontak</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i class="fa fa-map-marker"></i>
+              <span>Jl. Jenderal Ahmad Yani, Pekalongan, Jawa Tengah</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa fa-whatsapp"></i>
+              <span>+62 877-1180-8500</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa fa-clock-o"></i>
+              <span>Buka Setiap Hari: 08.00 - 18.00 WIB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fan Lestari Outdoor. Seluruh hak cipta dilindungi undang-undang.</p>
+        <p>Dirancang & Dikembangkan oleh <strong style="color:var(--gold-light);">Muhammad Rifanudin</strong></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Script -->
+  <script src="../js/luxury-app.js"></script>
+</body>
 </html>
